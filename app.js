@@ -4,7 +4,7 @@ const util = require("util");
 const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
-const html = require("./templates/htmltemp");
+const html = require('./templates/templates.html');
 
 
 
@@ -124,7 +124,7 @@ async function prompt() {
                ]
           }, ]);
 
-          // console.log(responseDone.choices);
+          console.log(responseDone.choices);
           //the while parameter is saying continue running the code if the user selects "yes"
      } while (responseDone.finish === "Yes");
 }
@@ -138,3 +138,47 @@ async function prompt() {
 //call function to run application on the server
 main();
 
+module.exports = teamstr
+`<div class="card">
+  <div class="card-header">
+      <h2>${arr.name}</h2>  
+      <h2>${arr.title}</h2>
+  </div>
+ <div class="card-body">
+      <ul>
+        <li>${arr.id}</li>
+        <li>${arr.email}</li>
+        <li>${arr.x}</li>
+     </ul>
+  </div>
+  </div>`
+
+  `<div class="card">
+  <div class="card-header">
+     <h2>${arr.name}</h2>  
+      <h2>${arr.title}</h2>
+  </div>
+  <div class="card-body">
+      <ul>
+          <li>${arr.id}</li>
+          <li>${arr.email}</li>
+          <li>${arr.x}</li>
+      </ul>
+  </div>
+  </div>`
+
+  `<div class="card">
+    <div class="card-header">
+        <h2>${arr.name}</h2>  
+        <h2>${arr.title}</h2>
+    </div>
+    <div class="card-body">
+        <ul>
+            <li>${arr.id}</li>
+            <li>${arr.email}</li>
+           <li>${arr.x}</li>
+       </ul>
+    </div>
+    </div>`
+ 
+  
