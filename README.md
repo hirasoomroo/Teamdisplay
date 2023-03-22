@@ -184,10 +184,10 @@ This Challenge is graded based on the following criteria:
 You are required to submit the following for review:
 
 * A walkthrough video that demonstrates the functionality of the application and passing tests.
-
+https://drive.google.com/file/d/19tzUKMPruEoF4J2_ixIGha98uyoHsRXy/view
 * A sample HTML file generated using your application.
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
-
+https://github.com/hirasoomroo/Teamdisplay
 ---
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
